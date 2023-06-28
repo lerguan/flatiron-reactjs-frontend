@@ -1,0 +1,64 @@
+{
+  "houses": [
+    {
+      "id": 1,
+      "address": "3553 NW 31st Ave, Camas, WA 98607",
+      "image": "https://www.zillow.com/homedetails/3553-NW-31st-Ave-Camas-WA-98607/23248752_zpid/?imxlb=g,0",
+      "price": "$643,000",
+      "year": 1996,
+      "size": "2,252 sqft",
+      "bedrooms": "3 bds",
+      "bathrooms": "3 ba"
+    },
+    {
+      "id": 2,
+      "address": "3616 SE 189th Ave, Vancouver, WA 98683",
+      "image": "https://www.zillow.com/homedetails/3616-SE-189th-Ave-Vancouver-WA-98683/66651240_zpid/?mmlb=g,0",
+      "price": "$549,999",
+      "year": 2015,
+      "size": "1,870 sqft",
+      "bedrooms": "4 bds",
+      "bathrooms": "3 ba"
+    },
+    {
+      "id": 3,
+      "address": "3905 SE 189th Avenue, Vancouver, WA 98683",
+      "image": "https://www.zillow.com/homedetails/3905-SE-189th-Ave-Vancouver-WA-98683/67684614_zpid/?mmlb=g,0",
+      "price": "$549,900",
+      "year": 2005,
+      "size": "2,225 sqft",
+      "bedrooms": "4 bds",
+      "bathrooms": "3 ba"
+    },
+    {
+      "id": 4,
+      "address": "1819 SE 169th Ave, Vancouver, WA 98683",
+      "image": "https://www.zillow.com/homedetails/1819-SE-169th-Ave-Vancouver-WA-98683/23275911_zpid/?mmlb=g,0",
+      "price": "$590,000",
+      "year": 1994,
+      "size": "2,336 sqft",
+      "bedrooms": "4 bds",
+      "bathrooms": "3 ba"
+    },
+    {
+      "id": 5,
+      "address": "18114 SE 16th St, Vancouver, WA 98683",
+      "image": "https://www.zillow.com/homedetails/18114-SE-16th-St-Vancouver-WA-98683/23313498_zpid/?mmlb=g,0",
+      "price": "$525,000",
+      "year": 1997,
+      "size": "1,825 sqft",
+      "bedrooms": "4 bds",
+      "bathrooms": "3 ba"
+    },
+    {
+      "id": 6,
+      "address": "2002 NW 31st Ave, Camas, WA 98607",
+      "image": "https://www.zillow.com/homedetails/2002-NW-31st-Ave-Camas-WA-98607/23248119_zpid/?imxlb=g,0",
+      "price": "$569,000",
+      "year": 1994,
+      "size": "1,611 sqft",
+      "bedrooms": "3 bds",
+      "bathrooms": "3 ba"
+    }
+  ]
+}
