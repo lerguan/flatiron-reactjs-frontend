@@ -1,7 +1,7 @@
 import React from "react";
 
 function HouseCard({ house, onDeleteHouse }) {
-  const { id, address, image, price, size, bedroom, bathroom } = house;
+  const { id, address, image, price, year, size, bedrooms, bathrooms } = house;
 
   function handleDelete() {
     fetch(`http://localhost:3000/houses/${id}`, {
@@ -14,7 +14,11 @@ function HouseCard({ house, onDeleteHouse }) {
     <li className="house-card">
       <img src={image} alt={address} />
       <h4>{address}</h4>
+      <h4>Built in {year}</h4>
       <h4>{size}</h4>
+      <h4>
+        {bedrooms} + {bathrooms}
+      </h4>
       <h4>{price}</h4>
       <button onClick={handleDelete}>Remove</button>
     </li>
