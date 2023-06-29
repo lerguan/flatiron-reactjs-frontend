@@ -47,7 +47,7 @@ function NewHouseInfo({ onAddHouse }) {
         />
         <input
           type="number"
-          name="price"
+          name="Price"
           placeholder="Listing Price"
           value={price}
           onChange={(e) => setPrice(e.target.value)}
@@ -55,7 +55,7 @@ function NewHouseInfo({ onAddHouse }) {
         <input
           type="number"
           name="size"
-          placeholder="size in sqft"
+          placeholder="Size in sqft"
           value={size}
           onChange={(e) => setSize(e.target.value)}
         />
