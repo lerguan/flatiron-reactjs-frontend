@@ -26,7 +26,7 @@ function App() {
   }
 
   return (
-    <div className="App">
+    <div className="app">
       <Header />
       <NewHouseInfo onAddHouse={handleAddHouse} />
       <HouseList houses={houses} onDeleteHouse={handleDeleteHouse} />
