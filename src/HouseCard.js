@@ -7,6 +7,8 @@ function HouseCard({ house, onDeleteHouse }) {
     fetch(`http://localhost:3000/houses/${id}`, {
       method: "DELETE",
     });
+
+    onDeleteHouse(id);
   }
   return (
     <li className="house-card">
