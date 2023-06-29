@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 
 function NewHouseInfo(onAddHouse) {
+  const [address, setAddress] = useState("");
   const [image, setImage] = useState("");
   const [price, setPrice] = useState("");
   const [year, setYear] = useState("");
@@ -14,6 +15,7 @@ function NewHouseInfo(onAddHouse) {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
+        address: address,
         image: image,
         price: price,
         year: year,
@@ -29,6 +31,13 @@ function NewHouseInfo(onAddHouse) {
   return (
     <div className="new-house-info">
       <form onSubmit={handleSubmit}>
+        <input
+          type="text"
+          name="address"
+          placeholder="Address"
+          value={address}
+          onChange={(e) => setAddress(e.target.value)}
+        />
         <input
           type="text"
           name="image"
