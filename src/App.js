@@ -16,7 +16,12 @@ function App() {
   }, []);
 
   function handleAddHouse(newHouseInfo) {
-    const newHousesArray = [...housesArray, newHouseInfo];
+    const newHousesArray = [...houses, newHouseInfo];
+    setHouses(newHousesArray);
+  }
+
+  function handleDeleteHouse(id) {
+    const newHousesArray = houses.filter((house) => house.id !== id);
     setHouses(newHousesArray);
   }
 
@@ -24,7 +29,7 @@ function App() {
     <div className="App">
       <Header />
       <NewHouseInfo onAddHouse={handleAddHouse} />
-      <HouseList />
+      <HouseList houses={houses} onDeleteHouse={handleDeleteHouse} />
     </div>
   );
 }

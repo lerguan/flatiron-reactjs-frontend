@@ -10,3 +10,5 @@ function HouseList({ houses, onDeleteHouse }) {
     </ul>
   );
 }
+
+export default HouseList;
