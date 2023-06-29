@@ -12,7 +12,7 @@ function HouseCard({ house, onDeleteHouse }) {
   }
   return (
     <li className="house-card">
-      <img scr={image} alt={address} />
+      <img src={image} alt={address} />
       <h4>{address}</h4>
       <h4>{size}</h4>
       <h4>{price}</h4>
