@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-function NewHouseInfo(onAddHouse) {
+function NewHouseInfo({ onAddHouse }) {
   const [address, setAddress] = useState("");
   const [image, setImage] = useState("");
   const [price, setPrice] = useState("");
@@ -34,41 +34,47 @@ function NewHouseInfo(onAddHouse) {
         <input
           type="text"
           name="address"
-          placeholder="Address"
+          placeholder="Stree, city, state, zipcode"
           value={address}
           onChange={(e) => setAddress(e.target.value)}
         />
         <input
-          type="text"
+          type="url"
           name="image"
           placeholder="Image URL"
           value={image}
           onChange={(e) => setImage(e.target.value)}
         />
         <input
-          type="text"
+          type="number"
           name="price"
           placeholder="Listing Price"
           value={price}
           onChange={(e) => setPrice(e.target.value)}
         />
-        <input type="text" name="size" placeholder="size" value={size} onChange={(e) => setSize(e.target.value)} />
         <input
-          type="text"
+          type="number"
+          name="size"
+          placeholder="size in sqft"
+          value={size}
+          onChange={(e) => setSize(e.target.value)}
+        />
+        <input
+          type="number"
           name="Year"
           placeholder="Year of Built"
           value={year}
           onChange={(e) => setYear(e.target.value)}
         />
         <input
-          type="text"
+          type="number"
           name="bedrooms"
           placeholder="Number of Bedrooms"
           value={bedrooms}
           onChange={(e) => setBedrooms(e.target.value)}
         />
         <input
-          type="text"
+          type="number"
           name="Bathrooms"
           placeholder="Number of Bathrooms"
           value={bathrooms}

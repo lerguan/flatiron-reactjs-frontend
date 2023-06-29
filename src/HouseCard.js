@@ -15,11 +15,11 @@ function HouseCard({ house, onDeleteHouse }) {
       <img src={image} alt={address} />
       <h4>{address}</h4>
       <h4>Built in {year}</h4>
-      <h4>{size}</h4>
+      <h4>{size} sqft</h4>
       <h4>
-        {bedrooms} + {bathrooms}
+        {bedrooms} bds + {bathrooms} ba
       </h4>
-      <h4>{price}</h4>
+      <h4>${price}</h4>
       <button onClick={handleDelete}>Remove</button>
     </li>
   );

@@ -4,51 +4,61 @@
       "id": 2,
       "address": "3616 SE 189th Ave, Vancouver, WA 98683",
       "image": "https://ap.rdcpix.com/125e2b4e97ed0e2f2b1c47817aeae076l-m120547298od-w1024_h768_x2.webp",
-      "price": "$549,999",
+      "price": 549999,
       "year": 2015,
-      "size": "1,870 sqft",
-      "bedrooms": "4 bds",
-      "bathrooms": "3 ba"
+      "size": 1870,
+      "bedrooms": 4,
+      "bathrooms": 3
     },
     {
       "id": 3,
       "address": "3905 SE 189th Avenue, Vancouver, WA 98683",
       "image": "https://ap.rdcpix.com/4612b54772964deb19b79c65e51fca3bl-m2608129867od-w1024_h768_x2.webp",
-      "price": "$549,900",
+      "price": 549900,
       "year": 2005,
-      "size": "2,225 sqft",
-      "bedrooms": "4 bds",
-      "bathrooms": "3 ba"
+      "size": 2225,
+      "bedrooms": 4,
+      "bathrooms": 3
     },
     {
       "id": 4,
       "address": "1819 SE 169th Ave, Vancouver, WA 98683",
       "image": "https://ap.rdcpix.com/229258a80a32fde168b95ba96778650fl-m3625432593od-w1024_h768_x2.webp",
-      "price": "$590,000",
+      "price": 590000,
       "year": 1994,
-      "size": "2,336 sqft",
-      "bedrooms": "4 bds",
-      "bathrooms": "3 ba"
+      "size": 2336,
+      "bedrooms": 4,
+      "bathrooms": 3
     },
     {
       "id": 5,
       "address": "18114 SE 16th St, Vancouver, WA 98683",
       "image": "https://ap.rdcpix.com/1d697fc55aab9a0254675536dbb7e972l-m4111222590od-w1024_h768_x2.webp",
-      "price": "$525,000",
+      "price": 525000,
       "year": 1997,
-      "size": "1,825 sqft",
-      "bedrooms": "4 bds",
-      "bathrooms": "3 ba"
+      "size": 1825,
+      "bedrooms": 4,
+      "bathrooms": 3
     },
     {
       "id": 6,
       "address": "2002 NW 31st Ave, Camas, WA 98607",
       "image": "https://ap.rdcpix.com/820cf9f72d5017345c91de4d3920150bl-m612387584od-w1024_h768_x2.webp",
-      "price": "$569,000",
+      "price": 569000,
       "year": 1994,
-      "size": "1,611 sqft",
-      "bedrooms": "3 bds",
-      "bathrooms": "3 ba"
+      "size": 1611,
+      "bedrooms": 3,
+      "bathrooms": 3
+    },
+    {
+      "address": "19812 SE Lacy Way, camas, WA, 98607",
+      "image": "https://vignette.wikia.nocookie.net/p__/images/8/88/Jessie_Toy_Story_3.png/revision/latest?cb=20161023024601&path-prefix=protagonist",
+      "price": "700000",
+      "year": "2000",
+      "bedrooms": "5",
+      "bathrooms": "3.5",
+      "size": "2500",
+      "id": 7
     }
   ]
 }
