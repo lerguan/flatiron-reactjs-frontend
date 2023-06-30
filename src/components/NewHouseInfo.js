@@ -42,7 +42,7 @@ function NewHouseInfo({ onAddHouse }) {
           />
         </label>
         <label>
-          Input Property Image URL
+          Input Property Image URL:
           <input
             type="url"
             name="image"
