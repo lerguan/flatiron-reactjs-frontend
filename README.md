@@ -1,70 +1,31 @@
-# Getting Started with Create React App
+# Shopping for Home - A short list of properties to be purchased
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Introduction
 
-## Available Scripts
+While looking for potential real estate to purchase, there are so many properties on the market and it is easily losing track which ones are hits. It's necessary to pick up several properties that match our requirements and put them together to make a final list.
 
-In the project directory, you can run:
+## Start Up the Server
 
-### `npm start`
+All house data is stored in the db.json file. The data is accessed using a JSON server. Run `json-server --watch db.json` to start the server.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+This will create a server storing all of the house data at `http://localhost:3000/houses`.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+An individual house information can be found at `http://localhost:3000/houses/:id`. The `:id` is a variable value that indicates the path to a specific house.
 
-### `npm test`
+## Instructions
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Fetch houses
 
-### `npm run build`
+When the page loads, the page shows `My Favorites` tab, which is the existing collection of favorite houses and the relative information of that house, including picture, address, built year, size, number of bedrooms and bathrooms, and price.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Add new house to collection
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+On the top of the page, next to `My Favortee` tab, there is another tab, `Create New` where you can input house information and click Add House button to store new house information to the collection.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Remove specific house from the collection
 
-### `npm run eject`
+When click the `Remove` button under each house card, the house is deleted from the page as well as from the server.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Credit
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+The house information is from `Realtor.com`
