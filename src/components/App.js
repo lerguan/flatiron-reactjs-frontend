@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import Header from "./Header";
 import NewHouseInfo from "./NewHouseInfo";
 import HouseList from "./HouseList";
+import NavBar from "./NavBar";
 import { Route, Switch } from "react-router-dom";
 
 function App() {
@@ -33,7 +34,7 @@ function App() {
         <Route exact path="/new">
           <NewHouseInfo onAddHouse={handleAddHouse} />
         </Route>
-        <Route exact path="/">
+        <Route exact path="/houses">
           <HouseList houses={houses} onDeleteHouse={handleDeleteHouse} />
         </Route>
       </Switch>
