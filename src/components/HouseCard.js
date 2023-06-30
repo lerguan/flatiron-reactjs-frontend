@@ -10,6 +10,7 @@ function HouseCard({ house, onDeleteHouse }) {
 
     onDeleteHouse(id);
   }
+
   return (
     <li className="house-card">
       <img src={image} alt={address} />

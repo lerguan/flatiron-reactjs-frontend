@@ -31,55 +31,76 @@ function NewHouseInfo({ onAddHouse }) {
   return (
     <div className="new-house-info">
       <form onSubmit={handleSubmit}>
-        <input
-          type="text"
-          name="address"
-          placeholder="Stree, city, state, zipcode"
-          value={address}
-          onChange={(e) => setAddress(e.target.value)}
-        />
-        <input
-          type="url"
-          name="image"
-          placeholder="Image URL"
-          value={image}
-          onChange={(e) => setImage(e.target.value)}
-        />
-        <input
-          type="number"
-          name="Price"
-          placeholder="Listing Price"
-          value={price}
-          onChange={(e) => setPrice(e.target.value)}
-        />
-        <input
-          type="number"
-          name="size"
-          placeholder="Size in sqft"
-          value={size}
-          onChange={(e) => setSize(e.target.value)}
-        />
-        <input
-          type="number"
-          name="Year"
-          placeholder="Year of Built"
-          value={year}
-          onChange={(e) => setYear(e.target.value)}
-        />
-        <input
-          type="number"
-          name="bedrooms"
-          placeholder="Number of Bedrooms"
-          value={bedrooms}
-          onChange={(e) => setBedrooms(e.target.value)}
-        />
-        <input
-          type="number"
-          name="Bathrooms"
-          placeholder="Number of Bathrooms"
-          value={bathrooms}
-          onChange={(e) => setBathrooms(e.target.value)}
-        />
+        <label>
+          Input Property Address
+          <input
+            type="text"
+            name="address"
+            placeholder="Street, city, state, zipcode"
+            value={address}
+            onChange={(e) => setAddress(e.target.value)}
+          />
+        </label>
+        <label>
+          Input Property Image URL
+          <input
+            type="url"
+            name="image"
+            placeholder="Image URL"
+            value={image}
+            onChange={(e) => setImage(e.target.value)}
+          />
+        </label>
+        <label>
+          Input Listing Price
+          <input
+            type="number"
+            name="Price"
+            placeholder="Listing Price"
+            value={price}
+            onChange={(e) => setPrice(e.target.value)}
+          />
+        </label>
+        <label>
+          Input property size
+          <input
+            type="number"
+            name="size"
+            placeholder="Size in sqft"
+            value={size}
+            onChange={(e) => setSize(e.target.value)}
+          />
+        </label>
+        <label>
+          Input property built year
+          <input
+            type="number"
+            name="Year"
+            placeholder="Year of Built"
+            value={year}
+            onChange={(e) => setYear(e.target.value)}
+          />
+        </label>
+        <label>
+          Input Number of Bedrooms
+          <input
+            type="number"
+            name="bedrooms"
+            placeholder="Number of Bedrooms"
+            value={bedrooms}
+            onChange={(e) => setBedrooms(e.target.value)}
+          />
+        </label>
+        <label>
+          Input Number of Bathrooms
+          <input
+            type="number"
+            name="Bathrooms"
+            placeholder="Number of Bathrooms"
+            value={bathrooms}
+            onChange={(e) => setBathrooms(e.target.value)}
+          />
+        </label>
         <button type="submit">Add House</button>
       </form>
     </div>

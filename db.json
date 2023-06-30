@@ -49,16 +49,6 @@
       "size": 1611,
       "bedrooms": 3,
       "bathrooms": 3
-    },
-    {
-      "address": "3207 NE 98th Circle, Vancouver, WA 98665",
-      "image": "https://ap.rdcpix.com/be568475526ef28d254bec0495ad7357l-m949023330od-w480_h360_x2.webp?w=640&q=75",
-      "price": "529000",
-      "year": "1990",
-      "bedrooms": "4",
-      "bathrooms": "2.5",
-      "size": "2035",
-      "id": 7
     }
   ]
 }
