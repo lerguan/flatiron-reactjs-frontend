@@ -32,7 +32,7 @@ function NewHouseInfo({ onAddHouse }) {
     <div className="new-house-info">
       <form onSubmit={handleSubmit}>
         <label>
-          Input Property Address
+          Input Property Address:
           <input
             type="text"
             name="address"
@@ -52,7 +52,7 @@ function NewHouseInfo({ onAddHouse }) {
           />
         </label>
         <label>
-          Input Listing Price
+          Input Listing Price:
           <input
             type="number"
             name="Price"
@@ -62,7 +62,7 @@ function NewHouseInfo({ onAddHouse }) {
           />
         </label>
         <label>
-          Input property size
+          Input property size:
           <input
             type="number"
             name="size"
@@ -72,7 +72,7 @@ function NewHouseInfo({ onAddHouse }) {
           />
         </label>
         <label>
-          Input property built year
+          Input property built year:
           <input
             type="number"
             name="Year"
@@ -82,7 +82,7 @@ function NewHouseInfo({ onAddHouse }) {
           />
         </label>
         <label>
-          Input Number of Bedrooms
+          Input Number of Bedrooms:
           <input
             type="number"
             name="bedrooms"
@@ -92,7 +92,7 @@ function NewHouseInfo({ onAddHouse }) {
           />
         </label>
         <label>
-          Input Number of Bathrooms
+          Input Number of Bathrooms:
           <input
             type="number"
             name="Bathrooms"
