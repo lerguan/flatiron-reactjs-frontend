@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import Header from "./Header";
 import NewHouseInfo from "./NewHouseInfo";
 import HouseList from "./HouseList";
+import { Route, Switch } from "react-router-dom";
 
 function App() {
   const [houses, setHouses] = useState([]);
@@ -27,8 +28,15 @@ function App() {
   return (
     <div className="app">
       <Header />
-      <NewHouseInfo onAddHouse={handleAddHouse} />
-      <HouseList houses={houses} onDeleteHouse={handleDeleteHouse} />
+      <NavBar />
+      <Switch>
+        <Route exact path="/new">
+          <NewHouseInfo onAddHouse={handleAddHouse} />
+        </Route>
+        <Route exact path="/">
+          <HouseList houses={houses} onDeleteHouse={handleDeleteHouse} />
+        </Route>
+      </Switch>
     </div>
   );
 }
