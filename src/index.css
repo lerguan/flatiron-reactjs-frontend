@@ -20,10 +20,11 @@ code {
 .house-card {
   margin: 1rem;
   text-align: center;
+  display: inline-table;
 }
 
 .house-card img {
-  height: 200px;
+  height: 180px;
   width: auto;
 }
 
@@ -42,4 +43,25 @@ code {
   padding: 0;
   font-family: Arial, Helvetica, sans-serif;
   box-sizing: border-box;
+}
+
+.new-house-info {
+  padding: 2rem 1rem;
+  margin: 2rem 0;
+}
+
+.new-house-info form {
+  display: grid;
+  justify-content: center;
+}
+
+.new-house-info input {
+  margin: 0.5rem 0;
+  font-size: medium;
+  text-align: left;
+}
+
+.new-house-info button {
+  width: 150px;
+  font-size: large;
 }
