@@ -51,13 +51,13 @@
       "bathrooms": 3
     },
     {
-      "address": "19812 SE Lacy Way, camas, WA, 98607",
-      "image": "https://vignette.wikia.nocookie.net/p__/images/8/88/Jessie_Toy_Story_3.png/revision/latest?cb=20161023024601&path-prefix=protagonist",
-      "price": "700000",
-      "year": "2000",
-      "bedrooms": "5",
-      "bathrooms": "3.5",
-      "size": "2500",
+      "address": "3207 NE 98th Circle, Vancouver, WA 98665",
+      "image": "https://ap.rdcpix.com/be568475526ef28d254bec0495ad7357l-m949023330od-w480_h360_x2.webp?w=640&q=75",
+      "price": "529000",
+      "year": "1990",
+      "bedrooms": "4",
+      "bathrooms": "2.5",
+      "size": "2035",
       "id": 7
     }
   ]
