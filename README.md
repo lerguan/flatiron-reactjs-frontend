@@ -26,6 +26,10 @@ On the top of the page, next to `My Favortee` tab, there is another tab, `Create
 
 When click the `Remove` button under each house card, the house is deleted from the page as well as from the server.
 
+### Find more information of specific house from the collection
+
+When click the image of each house on My Favorite page, it redirects to the Additional Info page and show the link of the particular property that will direct to a google search results.
+
 ### Credit
 
 The house information is from `Realtor.com`
