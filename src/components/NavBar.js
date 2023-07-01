@@ -29,6 +29,15 @@ function NavBar() {
       >
         Create New
       </NavLink>
+      <NavLink
+        to="/housesearchlink"
+        style={linkStyles}
+        activeStyle={{
+          background: "rgb(143, 172, 162)",
+        }}
+      >
+        Addition Info
+      </NavLink>
     </div>
   );
 }
