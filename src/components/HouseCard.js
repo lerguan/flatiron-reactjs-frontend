@@ -1,7 +1,6 @@
 import React from "react";
-import AddressSearchLink from "./AddressSearchLink";
 
-function HouseCard({ house, onDeleteHouse }) {
+function HouseCard({ house, onDeleteHouse, onHouseSearchLink }) {
   const { id, address, image, price, year, size, bedrooms, bathrooms } = house;
 
   function handleDelete() {
@@ -13,7 +12,9 @@ function HouseCard({ house, onDeleteHouse }) {
   }
 
   function handleImgClick() {
-    return <AddressSearchLink address={address} />;
+    fetch(`http://localhost:3000/houses/${id}`)
+      .then((r) => r.json())
+      .then((house) => onHouseSearchLink(house));
   }
 
   return (
