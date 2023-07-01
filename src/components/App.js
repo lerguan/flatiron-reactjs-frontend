@@ -3,12 +3,13 @@ import Header from "./Header";
 import NewHouseInfo from "./NewHouseInfo";
 import HouseList from "./HouseList";
 import NavBar from "./NavBar";
-import { Route, Switch } from "react-router-dom";
+import { Route, Switch, useHistory } from "react-router-dom";
 import AddressSearchLink from "./AddressSearchLink";
 
 function App() {
   const [houses, setHouses] = useState([]);
   const [address, setAddress] = useState("");
+  const history = useHistory();
 
   useEffect(() => {
     fetch("http://localhost:3000/houses")
@@ -31,6 +32,7 @@ function App() {
   function handleHouseSearchLink(house) {
     const address = house.address;
     setAddress(address);
+    history.push("/housesearchlink");
   }
 
   return (
