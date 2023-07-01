@@ -1,4 +1,5 @@
 import React from "react";
+import AddressSearchLink from "./AddressSearchLink";
 
 function HouseCard({ house, onDeleteHouse }) {
   const { id, address, image, price, year, size, bedrooms, bathrooms } = house;
@@ -11,9 +12,13 @@ function HouseCard({ house, onDeleteHouse }) {
     onDeleteHouse(id);
   }
 
+  function handleImgClick() {
+    return <AddressSearchLink />;
+  }
+
   return (
     <li className="house-card">
-      <img src={image} alt={address} />
+      <img src={image} alt={address} onClick={handleImgClick} />
       <h4>{address}</h4>
       <h4>Built in {year}</h4>
       <h4>{size} sqft</h4>
