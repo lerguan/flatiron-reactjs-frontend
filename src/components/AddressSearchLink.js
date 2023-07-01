@@ -1,7 +1,10 @@
 function AddressSearchLink({ address }) {
+  const linkAddress = `https://www.google.com/search?q=${address}`;
+
   return (
     <div>
-      <h3>https://www.google.com/{address}</h3>
+      <h2>Use following link to get more information about the property</h2>
+      <a href={linkAddress}>{address}</a>
     </div>
   );
 }

@@ -45,7 +45,7 @@ function App() {
           <HouseList houses={houses} onDeleteHouse={handleDeleteHouse} onHouseSearchLink={handleHouseSearchLink} />
         </Route>
         <Route exact path="/housesearchlink">
-          <onHouseSearchLink address={address} />
+          <AddressSearchLink address={address} />
         </Route>
       </Switch>
     </div>

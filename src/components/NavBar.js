@@ -36,7 +36,7 @@ function NavBar() {
           background: "rgb(143, 172, 162)",
         }}
       >
-        Addition Info
+        Additional Info
       </NavLink>
     </div>
   );
