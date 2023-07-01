@@ -13,7 +13,7 @@ function HouseCard({ house, onDeleteHouse }) {
   }
 
   function handleImgClick() {
-    return <AddressSearchLink />;
+    return <AddressSearchLink address={address} />;
   }
 
   return (
