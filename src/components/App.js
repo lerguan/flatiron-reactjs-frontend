@@ -43,11 +43,11 @@ function App() {
         <Route exact path="/new">
           <NewHouseInfo onAddHouse={handleAddHouse} />
         </Route>
-        <Route exact path="/houses">
-          <HouseList houses={houses} onDeleteHouse={handleDeleteHouse} onHouseSearchLink={handleHouseSearchLink} />
-        </Route>
         <Route exact path="/housesearchlink">
           <AddressSearchLink address={address} />
+        </Route>
+        <Route exact path="/">
+          <HouseList houses={houses} onDeleteHouse={handleDeleteHouse} onHouseSearchLink={handleHouseSearchLink} />
         </Route>
       </Switch>
     </div>
